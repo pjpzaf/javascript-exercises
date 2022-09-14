@@ -3,7 +3,7 @@ const repeatString = function(string,num) {
     let newString;
 
     if (num===0) {
-        newstring = "\" \"";
+        newString = "";
     }
     else if (num>0) {
         newString = string;
